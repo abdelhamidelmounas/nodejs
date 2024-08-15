@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom right, #9be15d, #00e3ae);
+    background-repeat: no-repeat;
+    height:100%;
+    font-family: noto sans;
+}
+.title{
+    font-family: 'Sankofa Display', cursive;
+    background-image: linear-gradient(178deg, #9be15d, #00e3ae);
+    transform: skewX(195deg) ,;
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transform: rotate(5deg);
+    height: 70px;
+    line-height: 40px;
+}
+.title h1{
+    letter-spacing: 2.5px;
+    transform: rotate(350deg);
+    font-size: 50px;
+    color: #fff;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-direction: column;
+    transform: translateY(-50px);
+}
+.mini-cont{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 30px;
+    height: 70px;
+    transform: skewX(340deg);
+    transition: 1s all ease;
+    box-shadow: 7px 10px 33px rgba(0, 0, 0, 0.578);
+}
+.mini-cont:hover{
+    transform: scale(1.08)skewX(340deg);
+}
+.img{
+    font-size: 50px!important;
+    height: 100%;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+}
+.mini-cont h1{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(178deg, #9be15d, #00e3ae);
+    color: white;
+    font-size: 25px;
+    font-family: 'Sankofa Display',
+        cursive;
+    letter-spacing: 8px;
+    width: 250px;
+    text-align: center;
+}
+.mini-cont p{
+    margin: 0;
+    transform: skewX(-340deg);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+.mini-cont h3{
+    background-image: linear-gradient(178deg, #9be15d, #00e3ae);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: skewX(-340deg);
+    
+}
+.mini-cont h3::after{
+    content: ''
+    ;height: 107%;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.215);
+    transform: rotate(20deg) translateX(8px) translateY(-3px);
+    border-radius: 10px;
+    
+}
+.mini-cont :nth-child(4){
+    font-weight: 900;
+    width: 100px;
+    margin-left: 5%;
+}
+.mini-cont .price{
+    font-weight :600;
+    height: 100%;
+    font-size: 18px;
+}
+.mini-cont .price::before{
+    content: ''
+        ;
+        height: 107%;
+        width: 1px;
+        background-color: rgba(0, 0, 0, 0.215);
+        transform: rotate(20deg) translateX(-8px) translateY(3px);
+        border-radius: 10px;
+}
+
+.mini-cont a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    background-image: linear-gradient(178deg, #9be15d, #00e3ae);
+    color: white;
+}
+    </style>
+    <div class="title"> 
+        <h1>🌽 Node farm 🥦</h1>
+    </div>
+    {%container%}
+</div>
+</body>
+</html>
